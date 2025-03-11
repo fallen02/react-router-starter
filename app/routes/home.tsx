@@ -1,5 +1,5 @@
+import { Container } from "../components/Container";
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +9,9 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <Container className="flex h-dvh w-dvw justify-center items-center">
+      <p className="text-5xl text-gray-900 dark:text-gray-300">Hello World</p>
+    </Container>
+  )
 }
