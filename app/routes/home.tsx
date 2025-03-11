@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <Container className="flex h-dvh w-dvw justify-center items-center">
-      <p className="text-5xl text-gray-900 dark:text-gray-300">Hello World</p>
+      <p className="text-5xl text-gray-900 dark:text-gray-300">Hello World2</p>
     </Container>
   )
 }
